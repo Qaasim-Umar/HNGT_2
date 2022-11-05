@@ -3,10 +3,10 @@ import './Footer.css'
 import Zuri from './Zuri.Internship_Logo.png'
 import i4g from './I4G.png'
 
-const Footer = () => {
+const Footer = ({id}) => {
   return (
     
-    <div className='footer'>
+    <div className='footer 'id={id}>
 
 
 <img src={Zuri} className="zuri" alt=''/>

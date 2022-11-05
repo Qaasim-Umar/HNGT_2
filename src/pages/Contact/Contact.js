@@ -44,7 +44,7 @@ const Contact = () => {
 
 
 </div>
-<Footer/>
+<Footer id='contact-footer'/>
     </div>
   )
 }

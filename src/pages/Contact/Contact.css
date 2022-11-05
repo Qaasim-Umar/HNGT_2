@@ -154,4 +154,8 @@ input[type="checkbox"] {
   #last_name {
     width: 100%;
   }
+
+  #contact-footer{
+    padding: 1.5rem 0;
+  }
 }
