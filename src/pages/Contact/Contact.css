@@ -1,26 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 .contact-card {
-    padding: 0 2rem;
+  padding: 0 2rem;
   max-width: 1030px;
   margin: 0 auto;
   height: auto;
-  border: 1px solid blue;
+
   font-family: "Inter";
 }
 
-.form-card{
-    max-width: 720px;
-    margin: 5rem auto;
-    
-    border: 1px solid red;
+.form-card {
+  max-width: 720px;
+  margin: 5rem auto;
 }
 
-.contact-card .paragraph{
+.contact-card .paragraph {
   font-size: 20px;
   color: #475467;
+  margin-bottom: 3rem;
   line-height: 30px;
-  
 }
 .contact-card h1 {
   color: #101828;
@@ -34,40 +32,39 @@ label {
   font-size: 14px;
 }
 .name-card {
-display: flex;
-gap: 1.5rem;
-/* flex-wrap: wrap; */
-
+  display: flex;
+  gap: 1.5rem;
+  /* flex-wrap: wrap; */
 }
-.checkbox p{
-    font-size: 16px;
-line-height: 24px;
-color: #475467;
+.checkbox p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #475467;
 }
 
-/* ::-webkit-input-placeholder { 
-    
-  }
-  :-ms-input-placeholder { 
-    
-  }
-  ::placeholder {
+
+  /* ::placeholder {
     vertical-align: text-top;
-  } */
+  }  */
 
-#first-name,
-#last-name {
+#first_name,
+#last_name {
   padding: 10px 14px;
   margin-top: 5px;
   width: 348px;
   height: 44px;
-
   background: #ffffff;
   border: 1px solid #d0d5dd;
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
   border-radius: 8px;
 }
-#email-address {
+
+.input:focus{
+  border: 1px solid #84CAFF;
+  background-color: red;
+}
+
+#email {
   padding: 10px 14px;
   margin-top: 5px;
   width: 100%;
@@ -84,6 +81,7 @@ color: #475467;
 
 #message {
   padding: 12px 14px;
+  margin-top: 1rem;
   width: 100%;
   height: 132px;
   background: #ffffff;
@@ -137,24 +135,23 @@ input[type="checkbox"] {
   transform: rotate(45deg);
 }
 
-#submit{
- width: 100%;
-height: 48px;
-color: white;
-background: #1570EF;
-border: 1px solid #1570EF;
-box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-border-radius: 8px;
+#btn__submit {
+  width: 100%;
+  height: 48px;
+  color: white;
+  background: #1570ef;
+  border: 1px solid #1570ef;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
 }
 
-@media only screen and (max-width:600px) {
-
-.name-card{
+@media only screen and (max-width: 600px) {
+  .name-card {
     flex-direction: column;
-}
+  }
 
-#first-name,
-#last-name {
+  #first_name,
+  #last_name {
     width: 100%;
-}
+  }
 }

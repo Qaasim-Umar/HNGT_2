@@ -1,7 +1,7 @@
 import React from "react";
-import "./Link.css";
+import "./Tolink.css";
 
-const link = ({name,link, id}) => {
+const Tolink = ({name,link, id}) => {
   return (
     <div>
       {" "}
@@ -10,4 +10,4 @@ const link = ({name,link, id}) => {
   );
 };
 
-export default link;
+export default Tolink;
