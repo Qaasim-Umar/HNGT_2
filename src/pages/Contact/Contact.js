@@ -31,7 +31,7 @@ const Contact = () => {
 </div>
 <label className="checkbox" >   
     <input type='checkbox'/>
-    <span id='tick'></span> <p>You agree to providing your data to &#123; name &#125;</p> 
+    <span id='tick'></span> <p className='agreement'>You agree to providing your data to &#123; name &#125;</p> 
 
     </label>
 
