@@ -140,7 +140,7 @@ input[type="checkbox"] {
   transform: rotate(45deg);
 }
 
-#btn__submit {
+#btn--submit {
   width: 100%;
   height: 48px;
   color: white;
@@ -150,11 +150,11 @@ input[type="checkbox"] {
   border-radius: 8px;
 }
 
-#btn__submit:hover{
+#btn--submit:hover{
   background: #1570EF;
 }
 
-#btn__submit:disabled
+#btn--submit:disabled
 {
 
 }
